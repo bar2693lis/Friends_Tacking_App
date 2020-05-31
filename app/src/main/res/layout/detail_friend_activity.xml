@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/friend_photo_output"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="10"
+        android:layout_margin="10dp"
+        android:background="@android:drawable/picture_frame" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="5dp"
+        android:padding="5dp"
+        android:gravity="center"
+        android:layout_gravity="center">
+
+        <TextView
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:background="@drawable/card"
+            android:layout_gravity="start"/>
+
+        <TextView
+            android:layout_width="210dp"
+            android:layout_height="40dp"
+            android:textSize="20sp"
+            android:id="@+id/friend_name_output"
+            android:layout_marginLeft="20dp"
+            android:layout_gravity="center|end"
+            android:gravity="end"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="5dp"
+        android:padding="5dp"
+        android:gravity="center"
+        android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/friend_phone_output"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/telephone"
+            android:layout_marginRight="40dp"
+            android:layout_gravity="start"
+            android:gravity="start"/>
+
+        <TextView
+            android:id="@+id/friend_email_output"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/email"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_gravity="center"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/friend_address_output"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/gps"
+            android:layout_marginLeft="40dp"
+            android:layout_gravity="end"
+            android:gravity="end"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="5dp"
+        android:padding="5dp"
+        android:gravity="center"
+        android:layout_gravity="center">
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/birthday"
+            android:layout_gravity="start"
+            android:gravity="start"/>
+
+        <TextView
+            android:id="@+id/friend_birthday_output"
+            android:layout_width="210dp"
+            android:layout_height="40dp"
+            android:textSize="20sp"
+            android:layout_marginLeft="20dp"
+            android:layout_gravity="end|center"
+            android:gravity="center"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="5dp"
+        android:padding="5dp"
+        android:gravity="center"
+        android:layout_gravity="center">
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/friendship"
+            android:layout_gravity="start"
+            android:gravity="start"/>
+
+        <TextView
+            android:layout_width="210dp"
+            android:layout_height="40dp"
+            android:textSize="20sp"
+            android:id="@+id/is_best_friend_output"
+            android:layout_marginLeft="20dp"
+            android:layout_gravity="end|center"
+            android:gravity="center"/>
+    </LinearLayout>
+
+</LinearLayout>
